@@ -16,6 +16,10 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /**************************/
 
+section {
+  margin-top: 130px;
+}
+
 .btn {
   display: inline-block;
   padding: 1.9rem 3.5rem;
@@ -33,6 +37,23 @@ body {
 .btn--transparent {
   border: 1px solid #fd6e0a;
   color: #fd6e0a;
+}
+
+.section-heading {
+  color: var(--dark-01, #181818);
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: var(--dark-03, #757575);
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.mb-md {
+  margin-bottom: 30px;
 }
 
 /**************************/
@@ -143,4 +164,42 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+/**************************/
+/* MAIN */
+/**************************/
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/**************************/
+/* ABOUT */
+/**************************/
+.section-about {
+  border-radius: 10px;
+  background: #fff8f3;
+  padding: 131px 156px;
+  text-align: center;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact {
+  font-size: 20px;
+}
+
+.contact-label {
+  color: #757575;
+  line-height: 30px;
+}
+
+.contact-info {
+  color: rgba(71, 71, 71, 1);
+  font-weight: 600;
 }
