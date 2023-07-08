@@ -20,6 +20,10 @@ section {
   margin-top: 130px;
 }
 
+body a {
+  text-decoration: none;
+}
+
 .btn {
   display: inline-block;
   padding: 1.9rem 3.5rem;
@@ -56,6 +60,13 @@ section {
   margin-bottom: 30px;
 }
 
+.mb-lg {
+  margin-bottom: 100px;
+}
+
+.item-center {
+  text-align: center;
+}
 /**************************/
 /* NAVIGATION */
 /**************************/
@@ -79,10 +90,6 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 5rem 22.6rem 5rem 0;
-}
-
-.header a {
-  text-decoration: none;
 }
 
 .logo {
@@ -247,4 +254,61 @@ section {
   color: var(--dark-03, #757575);
   font-size: 16px;
   line-height: 28px;
+}
+
+/**************************/
+/* RESUME */
+/**************************/
+
+.resume-columns {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.resume-column-title {
+  color: var(--dark-02, #474747);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.resume-item-title {
+  color: var(--dark-02, #474747);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume-item-institution {
+  color: var(--dark-03, #757575);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.resume-item-description {
+  color: var(--dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-right: 50px;
+}
+
+.horizontal-line {
+  display: block;
+  border-bottom: 1px solid #d1d1d1;
+  margin: 30px 0;
+}
+
+.download-cv-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.download-cv-button .btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
