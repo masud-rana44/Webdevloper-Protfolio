@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/**************************/
+/* GENERAL REUSABLE COMPONENTS */
+/**************************/
+
+.btn {
+  display: inline-block;
+  padding: 1.9rem 3.5rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn--orange {
+  background: #fd6e0a;
+  color: #fff !important;
+}
+
+.btn--transparent {
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+.header {
+  position: relative;
+  background: #fff8f3;
+  padding: 0 0 0 22.6rem;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.dev-bg {
+  position: absolute;
+  top: 38px;
+  left: 23px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 22.6rem 5rem 0;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #181818;
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+.logo span {
+  color: #fd6e0a;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.main-nav-list li {
+  list-style: none;
+}
+
+.main-nav-link {
+  color: var(--dark-02, #474747);
+  font-size: 2rem;
+}
+
+/**************************/
+/* BANNER */
+/**************************/
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  display: flex;
+  max-width: 585px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.banner-subheading {
+  color: var(--dark-02, #474747);
+  font-size: 4.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.banner-heading {
+  color: var(--dark-01, #181818);
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  color: var(--dark-03, #757575);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.banner-btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner-img {
+  width: 58.4rem;
+  height: 67.6rem;
+  flex-shrink: 0;
+}
+
+.banner-btns .btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
