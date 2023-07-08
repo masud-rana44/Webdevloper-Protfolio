@@ -26,11 +26,13 @@ body a {
 
 .btn {
   display: inline-block;
-  padding: 1.9rem 3.5rem;
+  padding: 1.8rem 3.4rem;
   border-radius: 5px;
   text-align: center;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+  border: none;
 }
 
 .btn--orange {
@@ -54,6 +56,10 @@ body a {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 30px;
+}
+
+.mb-sm {
+  margin-bottom: 20px;
 }
 
 .mb-md {
@@ -311,4 +317,72 @@ body a {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+.footer {
+  background: #fff8f3;
+  padding: 130px 230px;
+  margin-top: 110px;
+  display: flex;
+  gap: 110px;
+}
+
+.footer-column {
+  flex-basis: 50%;
+}
+
+.footer-column-description {
+  color: var(--dark-02, #474747);
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.footer .social-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.footer .social-link img {
+  width: 100%;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-form input,
+.footer-form textarea {
+  padding: 18px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #474747;
+  border: 1px solid transparent;
+}
+
+.footer-form input:focus,
+.footer-form textarea:focus {
+  outline: none;
+  border: 1px solid #fd6e0a;
+}
+
+.footer-form input::placeholder,
+.footer-form textarea::placeholder {
+  color: var(--dark-03, #757575);
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.footer-form textarea {
+  height: 180px;
+  resize: none;
 }
